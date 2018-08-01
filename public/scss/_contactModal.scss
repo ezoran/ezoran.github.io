@@ -1,3 +1,25 @@
+.modal-header4
+{
+	padding: 12px;
+    color: black;
+	font-variant: small-caps;
+
+
+	.closeBtn4
+	{
+	color: #ccc;
+	float:right;
+	font-size:30px;
+
+		&:hover,&:focus
+		{
+			color: #000;
+			text-decoration: none;
+			cursor: pointer;
+		}
+	}
+}
+
 .modal4
 {
 	z-index: 99;

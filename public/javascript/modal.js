@@ -1,5 +1,5 @@
 var modal1 = document.getElementById('modal1');
-var modalBtn1 = document.getElementById('modalBtn');
+var modalBtn1 = document.getElementById('modalBtn1');
 var closeBtn1 = document.getElementsByClassName('closeBtn1')[0];
 
 var modal2 = document.getElementById('modal2');
@@ -65,7 +65,7 @@ function openModal(e)
 
 function closeModal(e)
 {
-	if(e.target == closeBtn)
+	if(e.target == closeBtn1)
 	{
 		console.log("1 off x");
 		modal.style.display = 'none';
@@ -89,7 +89,7 @@ function closeModal(e)
 
 function clickOutside(e)
 {
-	if(e.target == modal)
+	if(e.target == modal1)
 	{
 		console.log("1 off modal");
 

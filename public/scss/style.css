@@ -1,3 +1,16 @@
+.modal-header3 {
+  padding: 12px;
+  color: black;
+  font-variant: small-caps; }
+  .modal-header3 .closeBtn3 {
+    color: #ccc;
+    float: right;
+    font-size: 30px; }
+    .modal-header3 .closeBtn3:hover, .modal-header3 .closeBtn3:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer; }
+
 .modal3 {
   z-index: 99;
   display: none;
@@ -125,6 +138,19 @@
     opacity: 0; }
   to {
     opacity: 1; } }
+.modal-header4 {
+  padding: 12px;
+  color: black;
+  font-variant: small-caps; }
+  .modal-header4 .closeBtn4 {
+    color: #ccc;
+    float: right;
+    font-size: 30px; }
+    .modal-header4 .closeBtn4:hover, .modal-header4 .closeBtn4:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer; }
+
 .modal4 {
   z-index: 99;
   display: none;
@@ -182,6 +208,19 @@
     opacity: 0; }
   to {
     opacity: 1; } }
+.modal-header2 {
+  padding: 12px;
+  color: black;
+  font-variant: small-caps; }
+  .modal-header2 .closeBtn2 {
+    color: #ccc;
+    float: right;
+    font-size: 30px; }
+    .modal-header2 .closeBtn2:hover, .modal-header2 .closeBtn2:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer; }
+
 .modal2 {
   z-index: 99;
   display: none;
