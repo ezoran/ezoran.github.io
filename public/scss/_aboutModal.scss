@@ -1,0 +1,70 @@
+.modal3
+{
+	z-index: 99;
+	display:none;
+	position: fixed;
+	left:0;
+	top:0;
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.5);
+	font-family: 'Inconsolata';
+
+	-webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s;
+
+
+	.modal-content3
+	{	
+		position: fixed;
+		background-color: white;
+		padding-bottom: 50px;
+		margin-right: auto;
+		width: 50%;
+		top: 0;
+		bottom: 0;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
+	  	-webkit-animation-name: slideIn;
+    	-webkit-animation-duration: 0.4s;
+    	animation-name: slideIn;
+    	animation-duration: 0.4s;
+	}
+
+}
+
+
+
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {left: -300px; opacity: 0} 
+    to {left: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {left: -300px; opacity: 0}
+    to {left: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+
+
+
+
+
+
+

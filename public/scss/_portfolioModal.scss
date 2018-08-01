@@ -1,4 +1,4 @@
-.modal1
+.modal2
 {
 	z-index: 99;
 	display:none;
@@ -17,7 +17,7 @@
     animation-duration: 0.4s;
 
 
-	.modal-content1
+	.modal-content2
 	{	
 		position: fixed;
 		background-color: white;
@@ -39,3 +39,25 @@
 
 
 
+
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {left: -300px; opacity: 0} 
+    to {left: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {left: -300px; opacity: 0}
+    to {left: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
