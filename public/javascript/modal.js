@@ -40,7 +40,7 @@ function openModal(e)
 	if (e.target == modalBtn1)
 	{
 		console.log("1 on");
-		modal.style.display = 'block';
+		modal1.style.display = 'block';
 
 	}
 	else if (e.target == modalBtn2)
@@ -57,7 +57,7 @@ function openModal(e)
 	}
 	else if (e.target == modalBtn4)
 	{
-		console.log("3 on");
+		console.log("4 on");
 		modal4.style.display = 'block';
 
 	}
@@ -68,7 +68,7 @@ function closeModal(e)
 	if(e.target == closeBtn1)
 	{
 		console.log("1 off x");
-		modal.style.display = 'none';
+		modal1.style.display = 'none';
 	}
 	else if(e.target == closeBtn2)
 	{
@@ -82,7 +82,7 @@ function closeModal(e)
 	}
 	else if(e.target == closeBtn4)
 	{
-		console.log("3 off x");
+		console.log("4 off x");
 		modal4.style.display = 'none';
 	}
 }
@@ -93,7 +93,7 @@ function clickOutside(e)
 	{
 		console.log("1 off modal");
 
-		modal.style.display = 'none';
+		modal1.style.display = 'none';
 	}
 	if(e.target == modal2)
 	{
@@ -103,13 +103,13 @@ function clickOutside(e)
 	}
 	if(e.target == modal3)
 	{
-		console.log("2 off modal");
+		console.log("3 off modal");
 
 		modal3.style.display = 'none';
 	}
 	if(e.target == modal4)
 	{
-		console.log("2 off modal");
+		console.log("4 off modal");
 
 		modal4.style.display = 'none';
 	}
