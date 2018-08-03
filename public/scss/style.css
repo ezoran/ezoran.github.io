@@ -15,7 +15,7 @@
   z-index: 99;
   display: none;
   position: fixed;
-  left: 0;
+  right: 0;
   top: 0;
   height: 100%;
   width: 100%;
@@ -32,31 +32,31 @@
     background-color: white;
     padding-bottom: 50px;
     margin-right: auto;
-    width: 50%;
+    width: 30%;
+    height: 50%;
     top: 0;
     bottom: 0;
+    right: 0;
     overflow-x: hidden;
-    overflow-y: scroll;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
-    -webkit-animation-name: slideIn;
+    -webkit-animation-name: slideInR;
     -webkit-animation-duration: 0.4s;
-    animation-name: slideIn;
+    animation-name: slideInR;
     animation-duration: 0.4s; }
 
-/* Add Animation */
-@-webkit-keyframes slideIn {
+@-webkit-keyframes slideInR {
   from {
-    left: -300px;
+    right: -300px;
     opacity: 0; }
   to {
-    left: 0;
+    right: 0;
     opacity: 1; } }
-@keyframes slideIn {
+@keyframes slideInR {
   from {
-    left: -300px;
+    right: -300px;
     opacity: 0; }
   to {
-    left: 0;
+    right: 0;
     opacity: 1; } }
 @-webkit-keyframes fadeIn {
   from {
@@ -85,7 +85,7 @@
   z-index: 99;
   display: none;
   position: fixed;
-  left: 0;
+  right: 0;
   top: 0;
   height: 100%;
   width: 100%;
@@ -104,29 +104,29 @@
     margin-right: auto;
     width: 50%;
     top: 0;
+    right: 0;
     bottom: 0;
     overflow-x: hidden;
     overflow-y: scroll;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
-    -webkit-animation-name: slideIn;
+    -webkit-animation-name: slideInR;
     -webkit-animation-duration: 0.4s;
-    animation-name: slideIn;
+    animation-name: slideInR;
     animation-duration: 0.4s; }
 
-/* Add Animation */
-@-webkit-keyframes slideIn {
+@-webkit-keyframes slideInR {
   from {
-    left: -300px;
+    right: -300px;
     opacity: 0; }
   to {
-    left: 0;
+    right: 0;
     opacity: 1; } }
-@keyframes slideIn {
+@keyframes slideInR {
   from {
-    left: -300px;
+    right: -300px;
     opacity: 0; }
   to {
-    left: 0;
+    right: 0;
     opacity: 1; } }
 @-webkit-keyframes fadeIn {
   from {
@@ -173,10 +173,10 @@
     padding-bottom: 50px;
     margin-right: auto;
     width: 50%;
-    top: 0;
+    height: 25%;
+    top: 60%;
     bottom: 0;
     overflow-x: hidden;
-    overflow-y: scroll;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
     -webkit-animation-name: slideIn;
     -webkit-animation-duration: 0.4s;
@@ -225,7 +225,7 @@
   z-index: 99;
   display: none;
   position: fixed;
-  left: 0;
+  right: 0;
   top: 0;
   height: 100%;
   width: 100%;
@@ -245,28 +245,28 @@
     width: 50%;
     top: 0;
     bottom: 0;
+    right: 0;
     overflow-x: hidden;
     overflow-y: scroll;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
-    -webkit-animation-name: slideIn;
+    -webkit-animation-name: slideInR;
     -webkit-animation-duration: 0.4s;
-    animation-name: slideIn;
+    animation-name: slideInR;
     animation-duration: 0.4s; }
 
-/* Add Animation */
-@-webkit-keyframes slideIn {
+@-webkit-keyframes slideInR {
   from {
-    left: -300px;
+    right: -300px;
     opacity: 0; }
   to {
-    left: 0;
+    right: 0;
     opacity: 1; } }
-@keyframes slideIn {
+@keyframes slideInR {
   from {
-    left: -300px;
+    right: -300px;
     opacity: 0; }
   to {
-    left: 0;
+    right: 0;
     opacity: 1; } }
 @-webkit-keyframes fadeIn {
   from {
