@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 .modal-header3 {
   padding: 12px;
   color: black;
@@ -19,8 +21,7 @@
   top: 0;
   height: 100%;
   width: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
   font-family: 'Inconsolata';
   -webkit-animation-name: fadeIn;
   /* Fade in the background */
@@ -29,11 +30,13 @@
   animation-duration: 0.4s; }
   .modal3 .modal-content3 {
     position: fixed;
-    background-color: white;
-    padding-bottom: 50px;
-    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    margin-right: 5%;
+    margin-top: 5%;
+    font-family: 'Indie Flower';
     width: 30%;
-    height: 50%;
+    height: 70%;
     top: 0;
     bottom: 0;
     right: 0;
@@ -49,14 +52,14 @@
     right: -300px;
     opacity: 0; }
   to {
-    right: 0;
+    right: 100px;
     opacity: 1; } }
 @keyframes slideInR {
   from {
     right: -300px;
     opacity: 0; }
   to {
-    right: 0;
+    right: 100px;
     opacity: 1; } }
 @-webkit-keyframes fadeIn {
   from {
@@ -90,7 +93,7 @@
   height: 100%;
   width: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
   font-family: 'Inconsolata';
   -webkit-animation-name: fadeIn;
   /* Fade in the background */
@@ -99,8 +102,8 @@
   animation-duration: 0.4s; }
   .modal1 .modal-content1 {
     position: fixed;
-    background-color: white;
-    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 50px;
     margin-right: auto;
     width: 50%;
     top: 0;
@@ -155,12 +158,12 @@
   z-index: 99;
   display: none;
   position: fixed;
-  left: 0;
+  right: 0;
   top: 0;
   height: 100%;
   width: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
   font-family: 'Inconsolata';
   -webkit-animation-name: fadeIn;
   /* Fade in the background */
@@ -169,34 +172,38 @@
   animation-duration: 0.4s; }
   .modal4 .modal-content4 {
     position: fixed;
-    background-color: white;
-    padding-bottom: 50px;
-    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 5%;
     width: 50%;
     height: 25%;
+    right: 0;
     top: 60%;
     bottom: 0;
     overflow-x: hidden;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
-    -webkit-animation-name: slideIn;
+    -webkit-animation-name: slideInR;
     -webkit-animation-duration: 0.4s;
-    animation-name: slideIn;
+    animation-name: slideInR;
     animation-duration: 0.4s; }
+    .modal4 .modal-content4 ul {
+      list-style: none; }
 
 /* Add Animation */
-@-webkit-keyframes slideIn {
+@-webkit-keyframes slideInR {
   from {
-    left: -300px;
+    right: -300px;
     opacity: 0; }
   to {
-    left: 0;
+    right: 0;
     opacity: 1; } }
-@keyframes slideIn {
+@keyframes slideInR {
   from {
-    left: -300px;
+    right: -300px;
     opacity: 0; }
   to {
-    left: 0;
+    right: 0;
     opacity: 1; } }
 @-webkit-keyframes fadeIn {
   from {
@@ -230,7 +237,7 @@
   height: 100%;
   width: 100%;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0);
   font-family: 'Inconsolata';
   -webkit-animation-name: fadeIn;
   /* Fade in the background */
@@ -239,8 +246,8 @@
   animation-duration: 0.4s; }
   .modal2 .modal-content2 {
     position: fixed;
-    background-color: white;
-    padding-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 50px;
     margin-right: auto;
     width: 50%;
     top: 0;
@@ -279,6 +286,50 @@
   to {
     opacity: 1; } }
 body {
-  background-color: white; }
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("IMG_0330.jpg");
+  height: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  body .title {
+    z-index: 3;
+    font-size: 72px;
+    margin-top: 20%;
+    margin-left: 10%;
+    padding-right: 60%; }
+  body .button1, body .button2, body .button3, body .button4 {
+    z-index: 3;
+    font-family: 'Indie Flower';
+    border: none;
+    color: black;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    cursor: pointer; }
+    body .button1:hover, body .button2:hover, body .button3:hover, body .button4:hover {
+      text-decoration: underline;
+      color: red; }
+  body .buttons {
+    margin-left: 10%;
+    padding-right: 60%; }
+  body .modal-body1 {
+    font-family: 'Indie Flower'; }
+  body #float {
+    position: relative;
+    z-index: 2;
+    -webkit-animation: floatBubble 2s infinite;
+    -webkit-animation-direction: alternate; }
+@-webkit-keyframes floatBubble {
+  from {
+    top: 25%;
+    -webkit-animation-timing-function: ease-in; }
+  to {
+    top: 40%;
+    -webkit-animation-timing-function: ease-out; } }
 
 /*# sourceMappingURL=style.css.map */

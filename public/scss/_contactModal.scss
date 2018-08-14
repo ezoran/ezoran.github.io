@@ -25,12 +25,12 @@
 	z-index: 99;
 	display:none;
 	position: fixed;
-	left:0;
+	right:0;
 	top:0;
 	height: 100%;
 	width: 100%;
 	overflow: auto;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0);
 	font-family: 'Inconsolata';
 
 	-webkit-animation-name: fadeIn; /* Fade in the background */
@@ -42,19 +42,26 @@
 	.modal-content4
 	{
 		position: fixed;
-		background-color: white;
-		padding-bottom: 50px;
-		margin-right: auto;
+		background-color: rgba(0,0,0,0.2);
+		text-decoration: none;
+		font-size: 30px;
+		margin-right: 5%;
 		width: 50%;
 		height: 25%;
+		right: 0;
 		top: 60%;
 		bottom: 0;
 		overflow-x: hidden;
 		box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
-	  	-webkit-animation-name: slideIn;
+	  	-webkit-animation-name: slideInR;
     	-webkit-animation-duration: 0.4s;
-    	animation-name: slideIn;
+    	animation-name: slideInR;
     	animation-duration: 0.4s;
+
+			ul
+			{
+				list-style: none;
+			}
 	}
 
 }
@@ -63,14 +70,14 @@
 
 
 /* Add Animation */
-@-webkit-keyframes slideIn {
-    from {left: -300px; opacity: 0}
-    to {left: 0; opacity: 1}
+@-webkit-keyframes slideInR {
+    from {right: -300px; opacity: 0}
+    to {right: 0; opacity: 1}
 }
 
-@keyframes slideIn {
-    from {left: -300px; opacity: 0}
-    to {left: 0; opacity: 1}
+@keyframes slideInR {
+    from {right: -300px; opacity: 0}
+    to {right: 0; opacity: 1}
 }
 
 @-webkit-keyframes fadeIn {

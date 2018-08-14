@@ -30,7 +30,7 @@
 	height: 100%;
 	width: 100%;
 	overflow: auto;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0);
 	font-family: 'Inconsolata';
 
 	-webkit-animation-name: fadeIn; /* Fade in the background */
@@ -42,8 +42,8 @@
 	.modal-content2
 	{
 		position: fixed;
-		background-color: white;
-		padding-bottom: 50px;
+		background-color: rgba(0,0,0,0.2);
+		padding: 50px;
 		margin-right: auto;
 		width: 50%;
 		top: 0;
