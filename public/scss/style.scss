@@ -7,6 +7,16 @@
 
 body
 {
+	.bg
+	{
+		z-index:99;
+		background-image: url("IMG_0330level2.jpg");
+		top: 0px;
+
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
 	z-index: 1;
 	background-color: rgba(0,0,0,0.5);
 	top: 0px;
@@ -17,6 +27,7 @@ body
 	background-size: cover;
 
 	padding-bottom: 200px;
+
 	.title
 	{
 		z-index: 99;
