@@ -1,16 +1,29 @@
+@import "resumeModal-coding";
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+
 .modal-header2
 {
 	padding: 12px;
-    color: black;
-	font-variant: small-caps;
+	display: inline;
 
+	.headerText2
+	{
+		margin: 0px 0px 0px 0px;
+		color: black;
+		float:left;
 
+		font-size:30px;
+
+	}
 	.closeBtn2
 	{
-	color: #ccc;
-	float:right;
-	font-size:30px;
+		margin: 0px 0px 0px 0px;
+		color: black;
+		float:right;
 
+		font-size:30px;
 		&:hover,&:focus
 		{
 			color: #000;
@@ -18,7 +31,9 @@
 			cursor: pointer;
 		}
 	}
+
 }
+
 
 .modal2
 {
@@ -56,6 +71,13 @@
     	-webkit-animation-duration: 0.4s;
     	animation-name: slideInR;
     	animation-duration: 0.4s;
+	}
+
+	.modal-body2
+	{
+		font-family: 'Indie Flower';
+		font-size: 20px;
+		padding-top: 50px;
 	}
 
 }

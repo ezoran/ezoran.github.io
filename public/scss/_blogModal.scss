@@ -1,16 +1,24 @@
 .modal-header1
 {
 	padding: 12px;
-    color: black;
-	font-variant: small-caps;
+	display: inline;
 
+	.headerText1
+	{
+		margin: 0px 0px 0px 0px;
+		color: black;
+		float:left;
 
+		font-size:30px;
+
+	}
 	.closeBtn1
 	{
-	color: #ccc;
-	float:right;
-	font-size:30px;
+		margin: 0px 0px 0px 0px;
+		color: black;
+		float:right;
 
+		font-size:30px;
 		&:hover,&:focus
 		{
 			color: #000;
@@ -18,6 +26,7 @@
 			cursor: pointer;
 		}
 	}
+
 }
 
 .modal1
@@ -58,6 +67,17 @@
     	animation-duration: 0.4s;
 	}
 
+	.modal-body1
+	{
+		font-family: 'Indie Flower';
+
+		.intro
+		{
+			padding-top: 50px;
+			font-size: 20px;
+		}
+
+	}
 }
 
 

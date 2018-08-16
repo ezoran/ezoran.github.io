@@ -1,16 +1,24 @@
 .modal-header4
 {
 	padding: 12px;
-    color: black;
-	font-variant: small-caps;
+	display: inline;
 
+	.headerText4
+	{
+		margin: 0px 0px 0px 0px;
+		color: black;
+		float:left;
 
+		font-size:30px;
+
+	}
 	.closeBtn4
 	{
-	color: #ccc;
-	float:right;
-	font-size:30px;
+		margin: 0px 0px 0px 0px;
+		color: black;
+		float:right;
 
+		font-size:30px;
 		&:hover,&:focus
 		{
 			color: #000;

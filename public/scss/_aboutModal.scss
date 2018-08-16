@@ -3,16 +3,24 @@
 .modal-header3
 {
 	padding: 12px;
-    color: black;
-	font-variant: small-caps;
+	display: inline;
 
+	.headerText3
+	{
+		margin: 0px 0px 0px 0px;
+		color: black;
+		float:left;
 
+		font-size:30px;
+
+	}
 	.closeBtn3
 	{
-	color: #ccc;
-	float:right;
-	font-size:30px;
+		margin: 0px 0px 0px 0px;
+		color: black;
+		float:right;
 
+		font-size:30px;
 		&:hover,&:focus
 		{
 			color: #000;
@@ -47,7 +55,6 @@
 		padding: 50px;
 		margin-right: 5%;
 		margin-top: 5%;
-		font-family: 'Indie Flower';
 		width: 30%;
 		height: 70%;
 		top: 0;
@@ -59,6 +66,12 @@
     	-webkit-animation-duration: 0.4s;
     	animation-name: slideInR;
     	animation-duration: 0.4s;
+	}
+
+	.modal-body3
+	{
+		font-family: 'Indie Flower';
+
 	}
 
 }
