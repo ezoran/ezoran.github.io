@@ -7,6 +7,12 @@
 
 body
 {
+	#skater
+	{
+		background-color: red;
+		align: center;
+	}
+
 	.bg
 	{
 		z-index:99;
@@ -56,6 +62,7 @@ body
 
 	.buttons
 	{
+		margin-top: -75px;
 		margin-left: 10%;
 		padding-right: 60%;
 	}
@@ -86,19 +93,5 @@ body
 
 	//Sketch Animations
 
-		#mydiv {
-		    position: absolute;
-		    z-index: 2;
-				background-color: rgba(0,0,0,0);
-		    text-align: center;
-		    border: 1px solid #d3d3d3;
-		}
 
-		#mydivheader {
-		    padding: 10px;
-		    cursor: move;
-		    z-index: 2;
-				background-color: rgba(0,0,0,0);
-		    color: #fff;
-		}
 }

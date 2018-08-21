@@ -332,6 +332,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 200px; }
+  body #skater {
+    background-color: red;
+    align: center; }
   body .bg {
     z-index: 99;
     background-image: url("IMG_0330level2.jpg");
@@ -361,19 +364,8 @@ body {
       text-decoration: underline;
       color: red; }
   body .buttons {
+    margin-top: -75px;
     margin-left: 10%;
     padding-right: 60%; }
-  body #mydiv {
-    position: absolute;
-    z-index: 2;
-    background-color: rgba(0, 0, 0, 0);
-    text-align: center;
-    border: 1px solid #d3d3d3; }
-  body #mydivheader {
-    padding: 10px;
-    cursor: move;
-    z-index: 2;
-    background-color: rgba(0, 0, 0, 0);
-    color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
