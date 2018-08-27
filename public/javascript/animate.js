@@ -15,9 +15,9 @@ var yPos; //skater y coordinate
 var scale = obj.height; //scale of skater
 var orig_scale = obj.height; //save original scale of skater
 
-obj.style.position = "fixed"; //set positioning of skater
+//obj.style.position = "fixed"; //set positioning of skater
 
-var loop = setInterval(playAnimation, 10);
+var loop = setInterval(playAnimation, 13);
 
 
 function playAnimation()
@@ -26,7 +26,7 @@ function playAnimation()
   if(xPos <= -100 || xPos == null)
   {
     resetMovement();
-    //resetSize();
+    resetSize();
   }
   else
   {
@@ -47,10 +47,11 @@ function handleMovement()
   else
   {
     xPos--;
+    handleSize();
   }
 
 
-  obj.style.left = xPos + 'px';
+  obj.style.right = xPos + 'px';
   obj.style.bottom = yPos + 'px';
 }
 
@@ -67,12 +68,13 @@ function resetMovement()
   xPos = (width / 2);
   yPos = -200;
 
-  obj.style.left = xPos + 'px';
+  obj.style.right = xPos + 'px';
   obj.style.bottom = yPos + 'px';
 
 }
 
 function resetSize()
 {
+  scale = orig_scale;
   obj.height = orig_scale;
 }

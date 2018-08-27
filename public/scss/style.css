@@ -334,12 +334,17 @@ body {
   background-size: cover;
   padding-bottom: 200px; }
   body #skater {
-    align: center; }
+    align: center;
+    position: absolute;
+    z-index: 4; }
   body .bg {
-    z-index: 99;
+    z-index: 5;
     background-image: url("IMG_0330level2.jpg");
+    background-color: black;
+    background-color: red;
     top: 0px;
-    background-position: center;
+    background-position: absolute;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover; }
   body .title {
