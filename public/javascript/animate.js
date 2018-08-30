@@ -38,15 +38,20 @@ function playAnimation()
 
 function handleMovement()
 {
+  var frequency = 10;
+  var magnitude = 0.5;
 
   if(xPos >= turningPoint)
   {
-    xPos--;
-    yPos++;
+    
+    //xPos--;
+    //yPos++;
+    //window.alert("xPos: " + xPos + " yPos: " + yPos);
   }
   else
   {
     xPos--;
+    yPos = yPos + .5;
     handleSize();
   }
 
