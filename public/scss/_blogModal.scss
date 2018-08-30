@@ -78,6 +78,25 @@
 		}
 
 	}
+
+	@media only screen and (max-width: 600px)
+	{
+			.modal-content1
+			{
+				top: 0px;
+				background-image: url("IMG_0330.jpg");
+				background-position: center;
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-color: rgba(0,0,0,0.5);
+
+				width: 100%;
+				padding-left: 5px;
+				padding-right: 5px;
+			}
+  }
+
 }
 
 

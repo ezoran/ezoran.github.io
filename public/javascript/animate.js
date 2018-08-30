@@ -19,7 +19,6 @@ var orig_scale = obj.height; //save original scale of skater
 
 var loop = setInterval(playAnimation, 13);
 
-
 function playAnimation()
 {
 
@@ -43,9 +42,9 @@ function handleMovement()
 
   if(xPos >= turningPoint)
   {
-    
-    //xPos--;
-    //yPos++;
+
+    xPos--;
+    yPos++;
     //window.alert("xPos: " + xPos + " yPos: " + yPos);
   }
   else

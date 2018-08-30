@@ -1,3 +1,15 @@
+var obj = document.getElementById("skater"); //grab for opacity
+
+function pauseByOpacity() //"pause" animation during open modals by changing image opacity
+{
+  obj.style.opacity = "0";
+}
+
+function playByOpacity() // reset opacity on closure of modals
+{
+  obj.style.opacity = "1";
+}
+
 var modal1 = document.getElementById('modal1');
 var modalBtn1 = document.getElementById('modalBtn1');
 var closeBtn1 = document.getElementsByClassName('closeBtn1')[0];
@@ -41,24 +53,28 @@ function openModal(e)
 	{
 		console.log("1 on");
 		modal1.style.display = 'block';
+		pauseByOpacity();
 
 	}
 	else if (e.target == modalBtn2)
 	{
 		console.log("2 on");
 		modal2.style.display = 'block';
+		pauseByOpacity();
 
 	}
 	else if (e.target == modalBtn3)
 	{
 		console.log("3 on");
 		modal3.style.display = 'block';
+		pauseByOpacity();
 
 	}
 	else if (e.target == modalBtn4)
 	{
 		console.log("4 on");
 		modal4.style.display = 'block';
+		pauseByOpacity();
 
 	}
 }
@@ -69,21 +85,26 @@ function closeModal(e)
 	{
 		console.log("1 off x");
 		modal1.style.display = 'none';
+		playByOpacity();
 	}
 	else if(e.target == closeBtn2)
 	{
 		console.log("2 off x");
 		modal2.style.display = 'none';
+		playByOpacity();
 	}
 	else if(e.target == closeBtn3)
 	{
 		console.log("3 off x");
 		modal3.style.display = 'none';
+		playByOpacity();
+
 	}
 	else if(e.target == closeBtn4)
 	{
 		console.log("4 off x");
 		modal4.style.display = 'none';
+		playByOpacity();
 	}
 }
 
@@ -92,25 +113,31 @@ function clickOutside(e)
 	if(e.target == modal1)
 	{
 		console.log("1 off modal");
-
 		modal1.style.display = 'none';
+
+		playByOpacity();
+
 	}
 	if(e.target == modal2)
 	{
 		console.log("2 off modal");
-
 		modal2.style.display = 'none';
+
+		playByOpacity();
 	}
 	if(e.target == modal3)
 	{
 		console.log("3 off modal");
-
 		modal3.style.display = 'none';
+
+		playByOpacity();
+
 	}
 	if(e.target == modal4)
 	{
 		console.log("4 off modal");
-
 		modal4.style.display = 'none';
+
+		playByOpacity();
 	}
 }
