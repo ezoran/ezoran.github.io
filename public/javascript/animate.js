@@ -15,9 +15,16 @@ var yPos; //skater y coordinate
 var scale = obj.height; //scale of skater
 var orig_scale = obj.height; //save original scale of skater
 
-//obj.style.position = "fixed"; //set positioning of skater
+var checkForMobile = window.matchMedia( "(max-width: 570px)" );
 
-var loop = setInterval(playAnimation, 13);
+if(!checkForMobile.matches) //if screen size is larger than 570px, play the animation
+{
+  var loop = setInterval(playAnimation, 13);
+}
+else //if on mobile
+{
+  obj.style.opacity = "0";
+}
 
 function playAnimation()
 {

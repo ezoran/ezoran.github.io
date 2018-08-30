@@ -1,6 +1,7 @@
-@import "resumeModal-coding";
+@import "resumeModal-text";
 
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 
 
 .modal-header2
@@ -13,7 +14,7 @@
 		margin: 0px 0px 0px 0px;
 		color: black;
 		float:left;
-
+		font-family: 'Reenie Beanie';
 		font-size:30px;
 
 	}
@@ -75,7 +76,7 @@
 
 	.modal-body2
 	{
-		font-family: 'Indie Flower';
+		font-family: 'Cutive Mono';
 		font-size: 20px;
 		padding-top: 50px;
 	}

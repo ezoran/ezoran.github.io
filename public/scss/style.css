@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
 .modal-header3 {
   padding: 12px;
   display: inline; }
@@ -253,11 +255,33 @@
   to {
     opacity: 1; } }
 .resume-coding .resume-coding-header {
-  font-size: 42px; }
+  font-size: 30px;
+  font-weight: bold; }
 .resume-coding .resume-coding-body {
   padding: 20px;
   padding-left: 10%;
-  font-size: 30px; }
+  font-size: 20px; }
+
+.resume-tools {
+  text-align: right; }
+  .resume-tools .resume-tools-header {
+    font-size: 30px;
+    font-weight: bold; }
+  .resume-tools .resume-tools-body {
+    padding: 20px;
+    font-size: 20px; }
+
+.resume-projects {
+  text-align: center; }
+  .resume-projects .resume-projects-header {
+    font-size: 30px;
+    font-weight: bold; }
+  .resume-projects .resume-projects-body p {
+    padding: 10px;
+    font-size: 20px; }
+  .resume-projects .resume-projects-body iframe {
+    height: 400px;
+    width: 75%; }
 
 .modal-header2 {
   padding: 12px;
@@ -266,6 +290,7 @@
     margin: 0px 0px 0px 0px;
     color: black;
     float: left;
+    font-family: 'Reenie Beanie';
     font-size: 30px; }
   .modal-header2 .closeBtn2 {
     margin: 0px 0px 0px 0px;
@@ -310,7 +335,7 @@
     animation-name: slideInR;
     animation-duration: 0.4s; }
   .modal2 .modal-body2 {
-    font-family: 'Indie Flower';
+    font-family: 'Cutive Mono';
     font-size: 20px;
     padding-top: 50px; }
 
@@ -365,21 +390,22 @@ body {
     background-size: cover; }
   body .title {
     z-index: 99;
-    font-size: 72px;
+    font-size: 48px;
     margin-top: 20%;
     margin-left: 10%;
-    padding-right: 60%; }
+    padding-right: 60%;
+    padding-bottom: 20px; }
   body .button1, body .button2, body .button3, body .button4 {
     z-index: 99;
-    font-family: 'Indie Flower';
+    font-family: 'Reenie Beanie';
     border: none;
     color: black;
     background-color: rgba(0, 0, 0, 0);
-    padding: 15px 15px;
+    padding: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 36px;
+    font-size: 28px;
     cursor: pointer; }
     body .button1:hover, body .button2:hover, body .button3:hover, body .button4:hover {
       text-decoration: underline;

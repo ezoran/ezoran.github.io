@@ -1,0 +1,60 @@
+.resume-coding
+{
+	.resume-coding-header
+	{
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.resume-coding-body
+	{
+		padding: 20px;
+		padding-left: 10%;
+		font-size: 20px;
+	}
+
+}
+
+.resume-tools
+{
+	text-align: right;
+
+	.resume-tools-header
+	{
+		font-size: 30px;
+		font-weight: bold;
+
+	}
+	.resume-tools-body
+	{
+		padding: 20px;
+		font-size: 20px;
+	}
+}
+
+.resume-projects
+{
+	text-align: center;
+
+	.resume-projects-header
+	{
+		font-size: 30px;
+		font-weight: bold;
+
+	}
+
+	.resume-projects-body
+	{
+		p
+		{
+			padding: 10px;
+			font-size: 20px;
+		}
+		iframe
+		{
+			height: 400px;
+			width: 75%;
+		}
+	}
+
+
+}
