@@ -5,6 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 @import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 
 
 body
@@ -16,22 +17,32 @@ body
 		align: center;
 		position: absolute;
 		z-index: 4;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 
-	.bg
+	#skater_inside
 	{
-		z-index:5;
-		background-image: url("IMG_0330level2.jpg");
-		background-color: rgba(0,0,0,1);
+		position: relative;
+	}
 
-		background-color: red;
-		top: 0px;
-
-		background-position: absolute;
-		background-attachment: fixed;
+	/*.bg
+	{
+		z-index:50;
+		background-image: url("IMG_0330level2.png");
+		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
-	}
+
+	//	background-color: red;
+	//	background-color: rgba(0,1,0,0.5);
+
+		height: 100%;
+		width: 100%;
+		top: 0px;
+
+		position: absolute;
+	}*/
 
 	z-index: 1;
 	background-color: rgba(0,0,0,0.5);

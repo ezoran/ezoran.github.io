@@ -7,23 +7,28 @@ var turningPoint = width * (.1); //set the skater's turning point to a certain
                                  //percentage of the screen
 
 
-var obj = document.getElementById("skater");
+var obj = document.getElementById("skater"); //skater container for base movement
+var obj_inside = document.getElementById("skater_inside"); //actual skater image
 
 var xPos; //skate x coordinate
 var yPos; //skater y coordinate
+var start = 0;
 
-var scale = obj.height; //scale of skater
-var orig_scale = obj.height; //save original scale of skater
+var scale = obj_inside.height; //scale of skater
+var orig_scale = obj_inside.height; //save original scale of skater
 
 var checkForMobile = window.matchMedia( "(max-width: 570px)" );
 
 if(!checkForMobile.matches) //if screen size is larger than 570px, play the animation
 {
+  obj.style.zIndex = "4"; //reset z-index for visibility
   var loop = setInterval(playAnimation, 13);
 }
 else //if on mobile
 {
   obj.style.opacity = "0";
+  obj.style.zIndex = "0";
+
 }
 
 function playAnimation()
@@ -44,14 +49,19 @@ function playAnimation()
 
 function handleMovement()
 {
-  var frequency = 10;
-  var magnitude = 0.5;
 
   if(xPos >= turningPoint)
   {
 
     xPos--;
     yPos++;
+
+    obj_inside.style.left = 40 * Math.sin( start ) + 'px'; //back and forth movement
+    start += 0.05;
+
+    /*xPos = parseInt(obj.style.right);
+    xPos--;
+    yPos = 200 + (Math.sin((2*Math.PI*xPos)/200))*document.height;*/
     //window.alert("xPos: " + xPos + " yPos: " + yPos);
   }
   else
@@ -69,7 +79,7 @@ function handleMovement()
 function handleSize()
 {
   scale--;
-  obj.height = scale;
+  obj_inside.height = scale;
 
 }
 
@@ -87,5 +97,5 @@ function resetMovement()
 function resetSize()
 {
   scale = orig_scale;
-  obj.height = orig_scale;
+  obj_inside.height = orig_scale;
 }

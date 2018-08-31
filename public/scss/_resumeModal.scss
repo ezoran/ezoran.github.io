@@ -1,7 +1,6 @@
 @import "resumeModal-text";
 
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 
 
 .modal-header2
@@ -15,7 +14,8 @@
 		color: black;
 		float:left;
 		font-family: 'Reenie Beanie';
-		font-size:30px;
+		font-size:42px;
+
 
 	}
 	.closeBtn2
@@ -27,7 +27,7 @@
 		font-size:30px;
 		&:hover,&:focus
 		{
-			color: #000;
+			color: black;
 			text-decoration: none;
 			cursor: pointer;
 		}
