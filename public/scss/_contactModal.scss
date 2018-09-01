@@ -52,8 +52,6 @@
 	{
 		position: fixed;
 		background-color: rgba(0,0,0,0.2);
-		text-decoration: none;
-		font-family: 'Cutive Mono';
 
 		font-size: 30px;
 		padding: 50px;
@@ -63,6 +61,7 @@
 		right: 0;
 	//	top: 60%;
 		bottom: 0;
+		text-decoration: none;
 		overflow-x: hidden;
 		box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
 	  	-webkit-animation-name: slideInR;
@@ -70,7 +69,12 @@
     	animation-name: slideInR;
     	animation-duration: 0.4s;
 
-			ul
+			a
+			{
+					text-decoration: none;
+			}
+
+			ul li
 			{
 				list-style: none;
 			}

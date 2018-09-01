@@ -49,16 +49,34 @@
 			padding: 10px;
 			font-size: 20px;
 		}
-		iframe
+
+		.video-container
 		{
-			height: 400px;
-			width: 75%;
+
+			position: relative;
+			padding-bottom: 56.25%;
+			padding-top: 25px;
+			height: 0;
+
+			iframe
+			{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
 		}
+
 		.game-text
 		{
-			font-size: 14px;
-			font-style: italic;
+			p
+			{
+				font-size: 14px;
+			}
+
 		}
+
 	}
 
 
