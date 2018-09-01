@@ -17,6 +17,7 @@ var start = 0;
 var scale = obj_inside.height; //scale of skater
 var orig_scale = obj_inside.height; //save original scale of skater
 
+
 var checkForMobile = window.matchMedia( "(max-width: 570px)" );
 
 if(!checkForMobile.matches) //if screen size is larger than 570px, play the animation
