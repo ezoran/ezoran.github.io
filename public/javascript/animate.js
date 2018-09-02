@@ -22,14 +22,14 @@ var checkForMobile = window.matchMedia( "(max-width: 570px)" );
 
 if(!checkForMobile.matches) //if screen size is larger than 570px, play the animation
 {
-  obj.style.zIndex = "4"; //reset z-index for visibility
+  //obj.style.zIndex = "4"; //reset z-index for visibility
+  obj_inside.style.display = "visible";
+
   var loop = setInterval(playAnimation, 13);
 }
 else //if on mobile
 {
-  obj.style.opacity = "0";
-  obj.style.zIndex = "0";
-
+  obj_inside.style.display = "none";
 }
 
 function playAnimation()
@@ -60,10 +60,7 @@ function handleMovement()
     obj_inside.style.left = 40 * Math.sin( start ) + 'px'; //back and forth movement
     start += 0.05;
 
-    /*xPos = parseInt(obj.style.right);
-    xPos--;
-    yPos = 200 + (Math.sin((2*Math.PI*xPos)/200))*document.height;*/
-    //window.alert("xPos: " + xPos + " yPos: " + yPos);
+
   }
   else
   {

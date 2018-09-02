@@ -74,6 +74,32 @@
 		font-family: 'Cutive Mono';
 		padding-top: 50px;
 	}
+	@media only screen and (max-width: 570px)
+	{
+
+		.modal-content3
+		{
+			background-image: url("IMG_0330.jpg");
+			background-position: center;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-color: rgba(0,0,0,0.5);
+
+			background-color: gray;
+			width: 100%;
+			height: 100%;
+			padding: 0;
+
+
+			.modal-body3
+			{
+				position: absolute;
+				padding: 5%;
+			}
+		}
+	}
+
 
 }
 
