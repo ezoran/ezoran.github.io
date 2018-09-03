@@ -1,15 +1,17 @@
+@import "variables";
+
 .resume-coding
 {
 	.resume-coding-header
 	{
-		font-size: 30px;
+		font-size: $headerFontSize;
 		font-weight: bold;
 	}
 	.resume-coding-body
 	{
 		padding: 20px;
 		padding-left: 10%;
-		font-size: 20px;
+		font-size: $bodyFontSize;
 	}
 
 }
@@ -20,14 +22,14 @@
 
 	.resume-tools-header
 	{
-		font-size: 30px;
+		font-size: $headerFontSize;
 		font-weight: bold;
 
 	}
 	.resume-tools-body
 	{
 		padding: 20px;
-		font-size: 20px;
+		font-size: $bodyFontSize;
 	}
 }
 
@@ -37,7 +39,7 @@
 
 	.resume-projects-header
 	{
-		font-size: 30px;
+		font-size: $headerFontSize;
 		font-weight: bold;
 
 	}
@@ -47,7 +49,7 @@
 		p
 		{
 			padding: 10px;
-			font-size: 20px;
+			font-size: $bodyFontSize;
 		}
 
 		.video-container
@@ -72,7 +74,7 @@
 		{
 			p
 			{
-				font-size: 14px;
+				font-size: $bodyFontSize;
 			}
 
 		}
@@ -82,17 +84,17 @@
 
 }
 
-@media only screen and (max-width: 570px) //mobile-optimization
+@media only screen and (max-width: 570px) //mobile optimization
 {
 	.resume-coding
 	{
 		.resume-coding-header
 		{
-			font-size: 20px;
+			font-size: $headerFontSize;
 		}
 		.resume-coding-body
 		{
-			font-size: 12px;
+			font-size: $bodyFontSize;
 		}
 
 	}
@@ -101,12 +103,12 @@
 	{
 		.resume-tools-header
 		{
-			font-size: 20px;
+			font-size: $headerFontSize;
 
 		}
 		.resume-tools-body
 		{
-			font-size: 12px;
+			font-size: $bodyFontSize;
 		}
 	}
 
@@ -114,21 +116,21 @@
 	{
 		.resume-projects-header
 		{
-			font-size: 20px;
+			font-size: $headerFontSize;
 		}
 
 		.resume-projects-body
 		{
 			p
 			{
-				font-size: 12px;
+				font-size: $bodyFontSize;
 			}
 
 			.game-text
 			{
 				p
 				{
-					font-size: 12px;
+					font-size: $bodyFontSize;
 				}
 
 			}

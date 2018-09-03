@@ -2,10 +2,13 @@
 @import "blogModal";
 @import "contactModal";
 @import "resumeModal";
+@import "variables";
 
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 @import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+
+
 
 
 body
@@ -58,7 +61,7 @@ body
 	.title
 	{
 		z-index: 99;
-		font-size: 48px;
+		font-size: $titleFontSize;
 		margin-top: 20%;
 		margin-left: 10%;
 		padding-right: 60%;
@@ -76,7 +79,7 @@ body
 		text-align: center;
 		text-decoration: none;
 		display: inline-block;
-		font-size: 28px;
+		font-size: $headerFontSize;
 		cursor: pointer;
 		&:hover {text-decoration: underline; color: red;}
 
@@ -117,7 +120,7 @@ body
 		overflow-y: scroll;
 
 
-		
+
 	}
 
 
