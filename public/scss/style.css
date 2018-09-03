@@ -68,9 +68,19 @@
       width: 100%;
       height: 100%;
       padding: 0; }
+      .modal3 .modal-content3 .modal-header3 {
+        padding: 5%;
+        display: block;
+        position: relative; }
+        .modal3 .modal-content3 .modal-header3 .headerText3 {
+          font-size: 24px; }
+        .modal3 .modal-content3 .modal-header3 .closeBtn3 {
+          font-size: 24px; }
       .modal3 .modal-content3 .modal-body3 {
-        position: absolute;
-        padding: 5%; } }
+        position: relative;
+        padding: 5%; }
+        .modal3 .modal-content3 .modal-body3 #originText {
+          font-size: 12px; } }
 
 @-webkit-keyframes slideInR {
   from {
@@ -152,18 +162,32 @@
     .modal1 .modal-body1 .intro {
       padding-top: 50px;
       font-size: 16px; }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 570px) {
     .modal1 .modal-content1 {
-      top: 0px;
       background-image: url("IMG_0330.jpg");
       background-position: center;
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: cover;
       background-color: rgba(0, 0, 0, 0.5);
+      background-color: gray;
       width: 100%;
-      padding-left: 5px;
-      padding-right: 5px; } }
+      height: 100%;
+      padding: 0; }
+      .modal1 .modal-content1 .modal-header1 {
+        padding: 5%;
+        display: block;
+        position: relative; }
+        .modal1 .modal-content1 .modal-header1 .headerText1 {
+          font-size: 24px; }
+        .modal1 .modal-content1 .modal-header1 .closeBtn1 {
+          font-size: 24px; }
+      .modal1 .modal-content1 .modal-body1 {
+        position: relative;
+        padding: 5%; }
+        .modal1 .modal-content1 .modal-body1 .intro {
+          font-size: 12px;
+          padding-top: 0; } }
 
 @-webkit-keyframes slideInR {
   from {
@@ -241,15 +265,38 @@
     animation-name: slideInR;
     animation-duration: 0.4s; }
     .modal4 .modal-content4 a {
-      text-decoration: none; }
+      text-decoration: none;
+      font-family: 'Cutive Mono'; }
     .modal4 .modal-content4 ul li {
       list-style: none; }
   @media only screen and (max-width: 570px) {
     .modal4 .modal-content4 {
+      background-image: url("IMG_0330.jpg");
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: rgba(0, 0, 0, 0.5);
       background-color: gray;
       width: 100%;
       height: 100%;
-      padding: 0; } }
+      padding: 0; }
+      .modal4 .modal-content4 .modal-header4 {
+        padding: 5%;
+        display: block;
+        position: relative; }
+        .modal4 .modal-content4 .modal-header4 .headerText4 {
+          font-size: 24px; }
+        .modal4 .modal-content4 .modal-header4 .closeBtn4 {
+          font-size: 24px; }
+      .modal4 .modal-content4 .modal-body4 {
+        position: relative;
+        padding: 5%; }
+        .modal4 .modal-content4 .modal-body4 a {
+          font-size: 20px;
+          text-decoration: none; }
+        .modal4 .modal-content4 .modal-body4 ul li {
+          list-style: none; } }
 
 /* Add Animation */
 @-webkit-keyframes slideInR {
@@ -315,6 +362,23 @@
   .resume-projects .resume-projects-body .game-text p {
     font-size: 14px; }
 
+@media only screen and (max-width: 570px) {
+  .resume-coding .resume-coding-header {
+    font-size: 20px; }
+  .resume-coding .resume-coding-body {
+    font-size: 12px; }
+
+  .resume-tools .resume-tools-header {
+    font-size: 20px; }
+  .resume-tools .resume-tools-body {
+    font-size: 12px; }
+
+  .resume-projects .resume-projects-header {
+    font-size: 20px; }
+  .resume-projects .resume-projects-body p {
+    font-size: 12px; }
+  .resume-projects .resume-projects-body .game-text p {
+    font-size: 12px; } }
 .modal-header2 {
   padding: 12px;
   display: inline; }
@@ -370,6 +434,30 @@
     font-family: 'Cutive Mono';
     font-size: 20px;
     padding-top: 50px; }
+  @media only screen and (max-width: 570px) {
+    .modal2 .modal-content2 {
+      background-image: url("IMG_0330.jpg");
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: rgba(0, 0, 0, 0.5);
+      background-color: gray;
+      width: 100%;
+      height: 100%;
+      padding: 0; }
+      .modal2 .modal-content2 .modal-header2 {
+        padding: 5%;
+        display: block;
+        position: relative; }
+        .modal2 .modal-content2 .modal-header2 .headerText2 {
+          font-size: 24px; }
+        .modal2 .modal-content2 .modal-header2 .closeBtn2 {
+          font-size: 24px; }
+      .modal2 .modal-content2 .modal-body2 {
+        position: relative;
+        padding: 5%;
+        font-size: 12px; } }
 
 @-webkit-keyframes slideInR {
   from {

@@ -92,10 +92,31 @@
 			padding: 0;
 
 
+			.modal-header3
+			{
+				padding: 5%;
+				display: block;
+				position: relative;
+
+				.headerText3
+				{
+					font-size:24px;
+				}
+
+				.closeBtn3
+				{
+					font-size: 24px;
+				}
+			}
 			.modal-body3
 			{
-				position: absolute;
+				position: relative;
 				padding: 5%;
+
+				#originText
+				{
+					font-size: 12px;
+				}
 			}
 		}
 	}

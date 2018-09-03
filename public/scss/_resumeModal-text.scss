@@ -81,3 +81,60 @@
 
 
 }
+
+@media only screen and (max-width: 570px) //mobile-optimization
+{
+	.resume-coding
+	{
+		.resume-coding-header
+		{
+			font-size: 20px;
+		}
+		.resume-coding-body
+		{
+			font-size: 12px;
+		}
+
+	}
+
+	.resume-tools
+	{
+		.resume-tools-header
+		{
+			font-size: 20px;
+
+		}
+		.resume-tools-body
+		{
+			font-size: 12px;
+		}
+	}
+
+	.resume-projects
+	{
+		.resume-projects-header
+		{
+			font-size: 20px;
+		}
+
+		.resume-projects-body
+		{
+			p
+			{
+				font-size: 12px;
+			}
+
+			.game-text
+			{
+				p
+				{
+					font-size: 12px;
+				}
+
+			}
+
+		}
+
+
+	}
+}
