@@ -35,7 +35,7 @@ def image_selection():
     targetPath = targetPath + "\images"
 
     shutil.copy(holderImageText, targetPath)
-    filename = targetPath + '\\' + filename
+    filename = 'images\\' + filename
 
     holderImageText = filename
 
