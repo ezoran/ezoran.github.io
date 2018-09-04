@@ -11,7 +11,7 @@
 		margin: 0px 0px 0px 0px;
 		color: black;
 		float:left;
-		font-family: 'Reenie Beanie';
+		font-family: $headerFont;
 		font-size: $headerFontSize;
 
 
@@ -72,7 +72,7 @@
 
 	.modal-body3
 	{
-		font-family: 'Cutive Mono';
+		font-family: $bodyFont;
 		padding-top: 10px;
 
 		#originText

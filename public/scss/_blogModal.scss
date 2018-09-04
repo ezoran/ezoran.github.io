@@ -1,4 +1,5 @@
 @import "variables";
+@import "blogModal-text";
 
 .modal-header1
 {
@@ -10,7 +11,7 @@
 		margin: 0px 0px 0px 0px;
 		color: black;
 		float:left;
-		font-family: 'Reenie Beanie';
+		font-family: $headerFont;
 		font-size: $headerFontSize;
 
 	}
@@ -71,7 +72,7 @@
 
 	.modal-body1
 	{
-		font-family: 'Cutive Mono';
+		font-family: $bodyFont;
 
 		.intro
 		{
@@ -123,6 +124,7 @@
 					font-size: $bodyFontSize;
 					padding-top: 0;
 				}
+
 			}
 		}
 	}
