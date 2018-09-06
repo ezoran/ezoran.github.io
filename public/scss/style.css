@@ -375,6 +375,13 @@
   padding-left: 10%;
   font-size: 14px; }
 
+.info {
+  font-size: 26px;
+  padding-bottom: 50px;
+  position: relative; }
+  .info a {
+    text-decoration: none; }
+
 .resume-tools {
   text-align: right; }
   .resume-tools .resume-tools-header {

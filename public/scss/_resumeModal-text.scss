@@ -16,6 +16,18 @@
 
 }
 
+.info
+{
+	font-size: $headerFontSize;
+	padding-bottom: 50px;
+	position: relative;
+	a
+	{
+		text-decoration: none;
+
+	}
+}
+
 .resume-tools
 {
 	text-align: right;
