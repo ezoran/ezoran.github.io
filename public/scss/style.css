@@ -210,7 +210,7 @@
   .modal1 .modal-body1 {
     font-family: "Crete Round"; }
     .modal1 .modal-body1 .intro {
-      padding-top: 50px;
+      padding-top: 5%;
       font-size: 16px; }
   @media only screen and (max-width: 570px) {
     .modal1 .modal-content1 {
@@ -235,8 +235,7 @@
         position: relative;
         padding: 5%; }
         .modal1 .modal-content1 .modal-body1 .intro {
-          font-size: 16px;
-          padding-top: 0; } }
+          font-size: 16px; } }
 
 @-webkit-keyframes slideInR {
   from {
