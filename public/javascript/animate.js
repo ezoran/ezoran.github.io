@@ -16,7 +16,7 @@ var start = 0;
 
 var scale = obj_inside.height; //scale of skater
 var orig_scale = obj_inside.height; //save original scale of skater
-
+var opacity;
 
 var checkForMobile = window.matchMedia( "(max-width: 570px)" );
 
@@ -32,26 +32,26 @@ else //if on mobile
   obj_inside.style.display = "none";
 }
 
-function playAnimation()
+
+function playAnimation() //handles the loop 
 {
 
   if(xPos <= -100 || xPos == null)
   {
     resetMovement();
     resetSize();
+    resetOpacity();
   }
   else
   {
-    //loop animation
     handleMovement();
-  //  handleSize();
   }
 }
 
-function handleMovement()
+function handleMovement() //handle movement of image div
 {
 
-  if(xPos >= turningPoint)
+  if(xPos >= turningPoint) //before image has hit 10% right of the screen
   {
 
     xPos--;
@@ -62,11 +62,12 @@ function handleMovement()
 
 
   }
-  else
+  else //after image has hit 10% change movement and resize
   {
     xPos--;
     yPos = yPos + .5;
     handleSize();
+    handleOpacity();
   }
 
 
@@ -74,14 +75,23 @@ function handleMovement()
   obj.style.bottom = yPos + 'px';
 }
 
-function handleSize()
+function handleSize() //decrease size incrementally
 {
   scale--;
   obj_inside.height = scale;
-
 }
 
-function resetMovement()
+function handleOpacity()//lower image opacity per frame
+{
+  obj_inside.style.opacity = parseFloat(obj_inside.style.opacity) - 0.002;
+}
+
+function resetOpacity()
+{
+  obj_inside.style.opacity = "1";
+}
+
+function resetMovement() //reset image to original position
 {
 
   xPos = (width / 2);

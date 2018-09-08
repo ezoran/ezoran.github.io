@@ -2,33 +2,33 @@
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
 @import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
-@import url("https://fonts.googleapis.com/css?family=Dosis");
+@import url("https://fonts.googleapis.com/css?family=Crete+Round");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
 @import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
-@import url("https://fonts.googleapis.com/css?family=Dosis");
+@import url("https://fonts.googleapis.com/css?family=Crete+Round");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
 @import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
-@import url("https://fonts.googleapis.com/css?family=Dosis");
+@import url("https://fonts.googleapis.com/css?family=Crete+Round");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
 @import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
-@import url("https://fonts.googleapis.com/css?family=Dosis");
+@import url("https://fonts.googleapis.com/css?family=Crete+Round");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
 @import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
-@import url("https://fonts.googleapis.com/css?family=Dosis");
+@import url("https://fonts.googleapis.com/css?family=Crete+Round");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
 @import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
-@import url("https://fonts.googleapis.com/css?family=Dosis");
+@import url("https://fonts.googleapis.com/css?family=Crete+Round");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
 @import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
-@import url("https://fonts.googleapis.com/css?family=Dosis");
+@import url("https://fonts.googleapis.com/css?family=Crete+Round");
 .modal-header3 {
   padding: 12px;
   display: inline; }
@@ -44,7 +44,6 @@
     float: right;
     font-size: 26px; }
     .modal-header3 .closeBtn3:hover, .modal-header3 .closeBtn3:focus {
-      color: black;
       text-decoration: none;
       cursor: pointer; }
 
@@ -79,7 +78,7 @@
     animation-name: slideInR;
     animation-duration: 0.4s; }
   .modal3 .modal-body3 {
-    font-family: "Dosis";
+    font-family: "Crete Round";
     padding-top: 10px; }
     .modal3 .modal-body3 #originText {
       font-size: 14px; }
@@ -144,7 +143,7 @@
   .blog_post .blog_entry {
     font-size: 14px;
     text-align: left;
-    font-family: "Dosis";
+    font-family: "Crete Round";
     padding-top: 10px;
     padding-bottom: 10px; }
   .blog_post .blog_image {
@@ -209,7 +208,7 @@
     animation-name: slideInR;
     animation-duration: 0.4s; }
   .modal1 .modal-body1 {
-    font-family: "Dosis"; }
+    font-family: "Crete Round"; }
     .modal1 .modal-body1 .intro {
       padding-top: 50px;
       font-size: 14px; }
@@ -304,7 +303,7 @@
     background-color: rgba(0, 0, 0, 0.2);
     font-size: 26px;
     padding: 50px;
-    width: 50%;
+    width: 30%;
     height: 10%;
     right: 0;
     bottom: 0;
@@ -317,7 +316,7 @@
     animation-duration: 0.4s; }
     .modal4 .modal-content4 a {
       text-decoration: none;
-      font-family: "Dosis"; }
+      font-family: "Crete Round"; }
     .modal4 .modal-content4 ul {
       list-style: none; }
   @media only screen and (max-width: 570px) {
@@ -374,7 +373,7 @@
   to {
     opacity: 1; } }
 .info {
-  font-size: 26px;
+  font-size: 18px;
   padding-bottom: 50px;
   position: relative; }
   .info a {
@@ -383,7 +382,7 @@
 .resume-coding {
   text-align: left; }
   .resume-coding .resume-coding-header {
-    font-size: 26px; }
+    font-size: 18px; }
   .resume-coding .resume-coding-body {
     padding: 20px;
     font-size: 14px; }
@@ -391,7 +390,7 @@
 .resume-tools {
   text-align: right; }
   .resume-tools .resume-tools-header {
-    font-size: 26px; }
+    font-size: 18px; }
   .resume-tools .resume-tools-body {
     padding: 20px;
     font-size: 14px; }
@@ -399,7 +398,7 @@
 .resume-projects {
   text-align: center; }
   .resume-projects .resume-projects-header {
-    font-size: 26px; }
+    font-size: 18px; }
   .resume-projects .resume-projects-body p {
     padding: 10px;
     font-size: 14px; }
@@ -486,7 +485,7 @@
     animation-name: slideInR;
     animation-duration: 0.4s; }
   .modal2 .modal-body2 {
-    font-family: "Dosis";
+    font-family: "Crete Round";
     font-size: 14px;
     padding-top: 50px; }
   @media only screen and (max-width: 570px) {
