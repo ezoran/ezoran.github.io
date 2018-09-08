@@ -57,7 +57,6 @@
 		position: fixed;
 		background-color: rgba(0,0,0,0.2);
 
-		font-size: $headerFontSize;
 		padding: 50px;
 	//	margin-right: 5%;
 		width: 30%;
@@ -73,16 +72,17 @@
     	animation-name: slideInR;
     	animation-duration: 0.4s;
 
-			a
+			.bodyLinks
 			{
-					text-decoration: none;
+				padding: 5%;
+				display: block;
+				position: relative;
+				a
+				{
 					font-family: $bodyFont;
+					font-size: $headerFontSize;
 
-			}
-
-			ul
-			{
-				list-style: none;
+				}
 			}
 	}
 
@@ -122,19 +122,18 @@
 			}
 			.modal-body4
 			{
-				position: relative;
 
-				a
+				.bodyLinks
 				{
-					font-size: $headerFontSize; //larger font for contact info
-					text-decoration: none;
-
+					display: block;
+					position: relative;
+					a
+					{
+						font-family: $bodyFont;
+						font-size: $headerFontSize;
+					}
 				}
 
-				ul
-				{
-					list-style: none;
-				}
 
 			}
 		}

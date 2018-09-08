@@ -81,7 +81,7 @@
     font-family: "Crete Round";
     padding-top: 10px; }
     .modal3 .modal-body3 #originText {
-      font-size: 14px; }
+      font-size: 16px; }
   @media only screen and (max-width: 570px) {
     .modal3 .modal-content3 {
       background-image: url("IMG_0330.jpg");
@@ -106,7 +106,7 @@
         position: relative;
         padding: 5%; }
         .modal3 .modal-content3 .modal-body3 #originText {
-          font-size: 14px; } }
+          font-size: 16px; } }
 
 @-webkit-keyframes slideInR {
   from {
@@ -141,7 +141,7 @@
     text-align: center;
     font-family: "Reenie Beanie"; }
   .blog_post .blog_entry {
-    font-size: 14px;
+    font-size: 16px;
     text-align: left;
     font-family: "Crete Round";
     padding-top: 10px;
@@ -211,7 +211,7 @@
     font-family: "Crete Round"; }
     .modal1 .modal-body1 .intro {
       padding-top: 50px;
-      font-size: 14px; }
+      font-size: 16px; }
   @media only screen and (max-width: 570px) {
     .modal1 .modal-content1 {
       background-image: url("IMG_0330.jpg");
@@ -235,7 +235,7 @@
         position: relative;
         padding: 5%; }
         .modal1 .modal-content1 .modal-body1 .intro {
-          font-size: 14px;
+          font-size: 16px;
           padding-top: 0; } }
 
 @-webkit-keyframes slideInR {
@@ -301,7 +301,6 @@
   .modal4 .modal-content4 {
     position: fixed;
     background-color: rgba(0, 0, 0, 0.2);
-    font-size: 26px;
     padding: 50px;
     width: 30%;
     height: 10%;
@@ -314,11 +313,13 @@
     -webkit-animation-duration: 0.4s;
     animation-name: slideInR;
     animation-duration: 0.4s; }
-    .modal4 .modal-content4 a {
-      text-decoration: none;
-      font-family: "Crete Round"; }
-    .modal4 .modal-content4 ul {
-      list-style: none; }
+    .modal4 .modal-content4 .bodyLinks {
+      padding: 5%;
+      display: block;
+      position: relative; }
+      .modal4 .modal-content4 .bodyLinks a {
+        font-family: "Crete Round";
+        font-size: 26px; }
   @media only screen and (max-width: 570px) {
     .modal4 .modal-content4 {
       background-image: url("IMG_0330.jpg");
@@ -339,13 +340,12 @@
           font-size: 26px; }
         .modal4 .modal-content4 .modal-header4 .closeBtn4 {
           font-size: 26px; }
-      .modal4 .modal-content4 .modal-body4 {
+      .modal4 .modal-content4 .modal-body4 .bodyLinks {
+        display: block;
         position: relative; }
-        .modal4 .modal-content4 .modal-body4 a {
-          font-size: 26px;
-          text-decoration: none; }
-        .modal4 .modal-content4 .modal-body4 ul {
-          list-style: none; } }
+        .modal4 .modal-content4 .modal-body4 .bodyLinks a {
+          font-family: "Crete Round";
+          font-size: 26px; } }
 
 /* Add Animation */
 @-webkit-keyframes slideInR {
@@ -373,7 +373,7 @@
   to {
     opacity: 1; } }
 .info {
-  font-size: 18px;
+  font-size: 20px;
   padding-bottom: 50px;
   position: relative; }
   .info a {
@@ -382,26 +382,26 @@
 .resume-coding {
   text-align: left; }
   .resume-coding .resume-coding-header {
-    font-size: 18px; }
+    font-size: 20px; }
   .resume-coding .resume-coding-body {
     padding: 20px;
-    font-size: 14px; }
+    font-size: 16px; }
 
 .resume-tools {
   text-align: right; }
   .resume-tools .resume-tools-header {
-    font-size: 18px; }
+    font-size: 20px; }
   .resume-tools .resume-tools-body {
     padding: 20px;
-    font-size: 14px; }
+    font-size: 16px; }
 
 .resume-projects {
   text-align: center; }
   .resume-projects .resume-projects-header {
-    font-size: 18px; }
+    font-size: 20px; }
   .resume-projects .resume-projects-body p {
     padding: 10px;
-    font-size: 14px; }
+    font-size: 16px; }
   .resume-projects .resume-projects-body .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -414,25 +414,25 @@
       width: 100%;
       height: 100%; }
   .resume-projects .resume-projects-body .game-text p {
-    font-size: 14px; }
+    font-size: 16px; }
 
 @media only screen and (max-width: 570px) {
   .resume-coding .resume-coding-header {
     font-size: 26px; }
   .resume-coding .resume-coding-body {
-    font-size: 14px; }
+    font-size: 16px; }
 
   .resume-tools .resume-tools-header {
     font-size: 26px; }
   .resume-tools .resume-tools-body {
-    font-size: 14px; }
+    font-size: 16px; }
 
   .resume-projects .resume-projects-header {
     font-size: 26px; }
   .resume-projects .resume-projects-body p {
-    font-size: 14px; }
+    font-size: 16px; }
   .resume-projects .resume-projects-body .game-text p {
-    font-size: 14px; } }
+    font-size: 16px; } }
 .modal-header2 {
   padding: 12px;
   display: inline; }
@@ -486,7 +486,7 @@
     animation-duration: 0.4s; }
   .modal2 .modal-body2 {
     font-family: "Crete Round";
-    font-size: 14px;
+    font-size: 16px;
     padding-top: 50px; }
   @media only screen and (max-width: 570px) {
     .modal2 .modal-content2 {
@@ -511,7 +511,7 @@
       .modal2 .modal-content2 .modal-body2 {
         position: relative;
         padding: 5%;
-        font-size: 14px; } }
+        font-size: 16px; } }
 
 @-webkit-keyframes slideInR {
   from {
@@ -584,7 +584,7 @@ body {
     padding-right: 60%; }
   @media only screen and (max-width: 600px) {
     body {
-      overflow-y: scroll; }
+      overflow: hidden; }
       body .title {
         font-size: 42px; }
       body .buttons {

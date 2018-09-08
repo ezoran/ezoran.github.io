@@ -96,7 +96,7 @@ body
 	//for mobile
 	@media only screen and (max-width: 600px)
 	{
-		overflow-y: scroll;
+		overflow: hidden;
 
 		.title
 		{
