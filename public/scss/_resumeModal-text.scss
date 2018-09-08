@@ -1,21 +1,5 @@
 @import "variables";
 
-.resume-coding
-{
-	.resume-coding-header
-	{
-		font-size: $headerFontSize;
-		font-weight: bold;
-	}
-	.resume-coding-body
-	{
-		padding: 20px;
-		padding-left: 10%;
-		font-size: $bodyFontSize;
-	}
-
-}
-
 .info
 {
 	font-size: $headerFontSize;
@@ -28,6 +12,23 @@
 	}
 }
 
+
+.resume-coding
+{
+	text-align: left;
+	.resume-coding-header
+	{
+		font-size: $headerFontSize;
+	}
+	.resume-coding-body
+	{
+		padding: 20px;
+		font-size: $bodyFontSize;
+	}
+
+}
+
+
 .resume-tools
 {
 	text-align: right;
@@ -35,7 +36,6 @@
 	.resume-tools-header
 	{
 		font-size: $headerFontSize;
-		font-weight: bold;
 
 	}
 	.resume-tools-body
@@ -52,7 +52,6 @@
 	.resume-projects-header
 	{
 		font-size: $headerFontSize;
-		font-weight: bold;
 
 	}
 

@@ -2,26 +2,33 @@
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
 @import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
+@import url("https://fonts.googleapis.com/css?family=Dosis");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
 @import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
+@import url("https://fonts.googleapis.com/css?family=Dosis");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
 @import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
+@import url("https://fonts.googleapis.com/css?family=Dosis");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
 @import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
+@import url("https://fonts.googleapis.com/css?family=Dosis");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
 @import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
+@import url("https://fonts.googleapis.com/css?family=Dosis");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
 @import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
+@import url("https://fonts.googleapis.com/css?family=Dosis");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Reenie+Beanie");
 @import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
+@import url("https://fonts.googleapis.com/css?family=Dosis");
 .modal-header3 {
   padding: 12px;
   display: inline; }
@@ -61,7 +68,7 @@
     background-color: rgba(0, 0, 0, 0.2);
     padding: 50px;
     width: 30%;
-    height: 70%;
+    height: 40%;
     top: 0;
     bottom: 0;
     right: 0;
@@ -72,7 +79,7 @@
     animation-name: slideInR;
     animation-duration: 0.4s; }
   .modal3 .modal-body3 {
-    font-family: "Cutive Mono";
+    font-family: "Dosis";
     padding-top: 10px; }
     .modal3 .modal-body3 #originText {
       font-size: 14px; }
@@ -137,7 +144,7 @@
   .blog_post .blog_entry {
     font-size: 14px;
     text-align: left;
-    font-family: "Cutive Mono";
+    font-family: "Dosis";
     padding-top: 10px;
     padding-bottom: 10px; }
   .blog_post .blog_image {
@@ -202,7 +209,7 @@
     animation-name: slideInR;
     animation-duration: 0.4s; }
   .modal1 .modal-body1 {
-    font-family: "Cutive Mono"; }
+    font-family: "Dosis"; }
     .modal1 .modal-body1 .intro {
       padding-top: 50px;
       font-size: 14px; }
@@ -298,7 +305,7 @@
     font-size: 26px;
     padding: 50px;
     width: 50%;
-    height: 25%;
+    height: 10%;
     right: 0;
     bottom: 0;
     text-decoration: none;
@@ -310,8 +317,8 @@
     animation-duration: 0.4s; }
     .modal4 .modal-content4 a {
       text-decoration: none;
-      font-family: "Cutive Mono"; }
-    .modal4 .modal-content4 ul li {
+      font-family: "Dosis"; }
+    .modal4 .modal-content4 ul {
       list-style: none; }
   @media only screen and (max-width: 570px) {
     .modal4 .modal-content4 {
@@ -334,12 +341,11 @@
         .modal4 .modal-content4 .modal-header4 .closeBtn4 {
           font-size: 26px; }
       .modal4 .modal-content4 .modal-body4 {
-        position: relative;
-        padding: 5%; }
+        position: relative; }
         .modal4 .modal-content4 .modal-body4 a {
           font-size: 26px;
           text-decoration: none; }
-        .modal4 .modal-content4 .modal-body4 ul li {
+        .modal4 .modal-content4 .modal-body4 ul {
           list-style: none; } }
 
 /* Add Animation */
@@ -367,14 +373,6 @@
     opacity: 0; }
   to {
     opacity: 1; } }
-.resume-coding .resume-coding-header {
-  font-size: 26px;
-  font-weight: bold; }
-.resume-coding .resume-coding-body {
-  padding: 20px;
-  padding-left: 10%;
-  font-size: 14px; }
-
 .info {
   font-size: 26px;
   padding-bottom: 50px;
@@ -382,11 +380,18 @@
   .info a {
     text-decoration: none; }
 
+.resume-coding {
+  text-align: left; }
+  .resume-coding .resume-coding-header {
+    font-size: 26px; }
+  .resume-coding .resume-coding-body {
+    padding: 20px;
+    font-size: 14px; }
+
 .resume-tools {
   text-align: right; }
   .resume-tools .resume-tools-header {
-    font-size: 26px;
-    font-weight: bold; }
+    font-size: 26px; }
   .resume-tools .resume-tools-body {
     padding: 20px;
     font-size: 14px; }
@@ -394,8 +399,7 @@
 .resume-projects {
   text-align: center; }
   .resume-projects .resume-projects-header {
-    font-size: 26px;
-    font-weight: bold; }
+    font-size: 26px; }
   .resume-projects .resume-projects-body p {
     padding: 10px;
     font-size: 14px; }
@@ -482,7 +486,7 @@
     animation-name: slideInR;
     animation-duration: 0.4s; }
   .modal2 .modal-body2 {
-    font-family: "Cutive Mono";
+    font-family: "Dosis";
     font-size: 14px;
     padding-top: 50px; }
   @media only screen and (max-width: 570px) {
@@ -582,7 +586,11 @@ body {
   @media only screen and (max-width: 600px) {
     body {
       overflow-y: scroll; }
+      body .title {
+        font-size: 42px; }
       body .buttons {
-        margin-top: -90px; } }
+        margin-top: -60px; }
+      body .button1, body .button2, body .button3, body .button4 {
+        display: block; } }
 
 /*# sourceMappingURL=style.css.map */

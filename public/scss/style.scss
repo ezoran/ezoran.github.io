@@ -98,10 +98,20 @@ body
 	{
 		overflow-y: scroll;
 
+		.title
+		{
+			font-size: $titleFontSizeMobile;
+		}
+
 		.buttons
 		{
-			margin-top: -90px;
+			margin-top: -60px;
 
+		}
+
+		%buttons-shared
+		{
+				display: block;
 		}
 
 	}
