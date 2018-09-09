@@ -302,11 +302,11 @@
     background-color: rgba(0, 0, 0, 0.2);
     padding: 50px;
     width: 30%;
-    height: 10%;
+    height: 12%;
     right: 0;
     bottom: 0;
     text-decoration: none;
-    overflow-x: hidden;
+    overflow: hidden;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
     -webkit-animation-name: slideInR;
     -webkit-animation-duration: 0.4s;
@@ -318,7 +318,7 @@
       position: relative; }
       .modal4 .modal-content4 .bodyLinks a {
         font-family: "Crete Round";
-        font-size: 26px; }
+        font-size: 20px; }
   @media only screen and (max-width: 570px) {
     .modal4 .modal-content4 {
       background-image: url("IMG_0330.jpg");
@@ -344,7 +344,7 @@
         position: relative; }
         .modal4 .modal-content4 .modal-body4 .bodyLinks a {
           font-family: "Crete Round";
-          font-size: 26px; } }
+          font-size: 20px; } }
 
 /* Add Animation */
 @-webkit-keyframes slideInR {
@@ -561,7 +561,8 @@ body {
     margin-top: 20%;
     margin-left: 10%;
     padding-right: 60%;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    line-height: 1em; }
   body .button1, body .button2, body .button3, body .button4 {
     z-index: 99;
     font-family: "Reenie Beanie";
@@ -578,7 +579,7 @@ body {
       text-decoration: underline;
       color: red; }
   body .buttons {
-    margin-top: -75px;
+    margin-top: -72px;
     margin-left: 10%;
     padding-right: 60%; }
   @media only screen and (max-width: 600px) {
