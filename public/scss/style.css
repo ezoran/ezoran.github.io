@@ -79,7 +79,8 @@
     animation-duration: 0.4s; }
   .modal3 .modal-body3 {
     font-family: "Crete Round";
-    padding-top: 10px; }
+    padding-top: 10px;
+    padding-bottom: 50px; }
     .modal3 .modal-body3 #originText {
       font-size: 16px; }
   @media only screen and (max-width: 570px) {
