@@ -1,10 +1,6 @@
 @import "resumeModal-text";
 @import "variables";
 
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
-
-
 .modal-header2
 {
 	padding: 12px;
@@ -80,7 +76,8 @@
 	{
 		font-family: $bodyFont;
 		font-size: $bodyFontSize;
-		padding-top: 50px;
+		margin-top: -4px; //correction
+		padding-top: 30px;
 	}
 
 

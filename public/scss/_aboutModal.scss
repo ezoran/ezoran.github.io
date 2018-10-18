@@ -14,7 +14,6 @@
 		font-family: $headerFont;
 		font-size: $headerFontSize;
 
-
 	}
 	.closeBtn3
 	{
@@ -71,10 +70,9 @@
 
 	.modal-body3
 	{
+		padding-top: 30px;
 		font-family: $bodyFont;
-		padding-top: 10px;
 		padding-bottom: 50px;
-
 		#originText
 		{
 			font-size: $bodyFontSize;

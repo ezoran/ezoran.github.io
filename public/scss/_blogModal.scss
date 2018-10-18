@@ -69,15 +69,15 @@
     	-webkit-animation-duration: 0.4s;
     	animation-name: slideInR;
     	animation-duration: 0.4s;
+
 	}
 
 	.modal-body1
 	{
+		padding-top: 30px;
 		font-family: $bodyFont;
-
 		.intro
 		{
-			padding-top: 5%;
 			font-size: $bodyFontSize;
 		}
 
