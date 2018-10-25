@@ -56,7 +56,7 @@
 	//	margin-right: 5%;
 		//margin-top: 5%;
 		width: 30%;
-		height: 50%;
+		height: 100%;
 		top: 0;
 		bottom: 0;
 		right:0;
@@ -73,10 +73,38 @@
 		padding-top: 30px;
 		font-family: $bodyFont;
 		padding-bottom: 50px;
-		#originText
+
+		.intro
 		{
+			display: flex;
+
+			.profileImage
+			{
+
+				#me
+				{
+					padding-right: 20px;
+
+				}
+			}
+			.aboutMe
+			{
+				top: 0;
+				p
+				{
+					font-style: italic;
+				}
+			}
+
+
+		}
+		.originText
+		{
+			padding-top: 10px;
+			display: block;
 			font-size: $bodyFontSize;
 		}
+
 	}
 	@media only screen and (max-width: 570px)
 	{
@@ -116,6 +144,16 @@
 			{
 				position: relative;
 				padding: 5%;
+
+				.intro
+				{
+					display: block;
+
+					.profileImage
+					{
+						text-align: center;
+					}
+				}
 
 				#originText
 				{
