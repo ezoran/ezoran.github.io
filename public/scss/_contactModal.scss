@@ -56,35 +56,50 @@
 	{
 		position: fixed;
 		background-color: rgba(0,0,0,0.2);
-
-
 		padding: 50px;
-	//	margin-right: 5%;
+		margin-right: auto;
 		width: 30%;
-		height: 12%;
+		top: 0;
 		right: 0;
-	//	top: 60%;
 		bottom: 0;
-		text-decoration: none;
-		overflow: hidden;
+		overflow-x: hidden;
+		overflow-y: scroll;
 		box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.2);
 	  	-webkit-animation-name: slideInR;
     	-webkit-animation-duration: 0.4s;
     	animation-name: slideInR;
     	animation-duration: 0.4s;
 
-			.bodyLinks
+		.bodyLinks
+		{
+			padding: 5%;
+			display: block;
+			position: relative;
+			a
 			{
-				padding: 5%;
-				display: block;
-				position: relative;
-				a
-				{
-					font-family: $bodyFont;
-					font-size: $bodyFontSizeLarge;
+				font-family: $bodyFont;
+				font-size: $bodyFontSizeLarge;
 
-				}
 			}
+		}
+
+		.twitterLogo
+		{
+			display: block;
+			text-align: left;
+		}
+
+		.instaLogo
+		{
+			display: block;
+			text-align: right;
+			}
+
+		.linkedinLogo
+		{
+			display: block;
+			text-align: left;
+		}
 	}
 
 	@media only screen and (max-width: 570px) //mobile optimization
