@@ -328,7 +328,8 @@
     .modal4 .modal-content4 .bodyLinks {
       padding: 5%;
       display: block;
-      position: relative; }
+      position: relative;
+      text-align: center; }
       .modal4 .modal-content4 .bodyLinks a {
         font-family: "Crete Round";
         font-size: 20px; }
