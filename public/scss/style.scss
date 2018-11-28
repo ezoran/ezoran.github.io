@@ -3,24 +3,11 @@
 @import "contactModal";
 @import "resumeModal";
 @import "variables";
+@import "images";
 
 body
 {
 	overflow: hidden;
-
-	#skater
-	{
-		align: center;
-		position: absolute;
-		z-index: 4;
-		padding-left: 50px;
-		padding-right: 50px;
-	}
-
-	#skater_inside
-	{
-		position: relative;
-	}
 
 	z-index: 1;
 	background-color: rgba(0,0,0,0.5);
@@ -110,8 +97,5 @@ body
 		{
 				display: block;
 		}
-
 	}
-
-
 }

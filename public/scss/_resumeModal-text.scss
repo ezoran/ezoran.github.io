@@ -2,8 +2,9 @@
 
 .info
 {
+	color: #073505;
 	font-size: $bodyFontSizeLarge;
-	padding-bottom: 10px;
+	padding-bottom: 1px;
 	position: relative;
 	a
 	{
@@ -12,142 +13,26 @@
 	}
 }
 
-
-.resume-coding
+.summary
 {
-	text-align: left;
-	.resume-coding-header
+	.title
 	{
+		color: #073505;
 		font-size: $bodyFontSizeLarge;
 	}
-	.resume-coding-body
-	{
-		padding: 20px;
-		font-size: $bodyFontSize;
-	}
 
+	.bullets
+	{
+		line-height: 1.6;
+	}
 }
 
 
-.resume-tools
-{
-	text-align: right;
-
-	.resume-tools-header
-	{
-		font-size: $bodyFontSizeLarge;
-
-	}
-	.resume-tools-body
-	{
-		padding: 20px;
-		font-size: $bodyFontSize;
-	}
-}
-
-.resume-projects
-{
-	text-align: center;
-
-	.resume-projects-header
-	{
-		font-size: $bodyFontSizeLarge;
-
-	}
-
-	.resume-projects-body
-	{
-		p
-		{
-			padding: 10px;
-			font-size: $bodyFontSize;
-		}
-
-		.video-container
-		{
-
-			position: relative;
-			padding-bottom: 56.25%;
-			padding-top: 25px;
-			height: 0;
-
-			iframe
-			{
-				position: absolute;
-				top: 0;
-				left: 0;
-				width: 100%;
-				height: 100%;
-			}
-		}
-
-		.game-text
-		{
-			p
-			{
-				font-size: $bodyFontSize;
-			}
-
-		}
-
-	}
 
 
-}
+
 
 @media only screen and (max-width: 570px) //mobile optimization
 {
-	.resume-coding
-	{
-		.resume-coding-header
-		{
-			font-size: $headerFontSize;
-		}
-		.resume-coding-body
-		{
-			font-size: $bodyFontSize;
-		}
 
-	}
-
-	.resume-tools
-	{
-		.resume-tools-header
-		{
-			font-size: $headerFontSize;
-
-		}
-		.resume-tools-body
-		{
-			font-size: $bodyFontSize;
-		}
-	}
-
-	.resume-projects
-	{
-		.resume-projects-header
-		{
-			font-size: $headerFontSize;
-		}
-
-		.resume-projects-body
-		{
-			p
-			{
-				font-size: $bodyFontSize;
-			}
-
-			.game-text
-			{
-				p
-				{
-					font-size: $bodyFontSize;
-				}
-
-			}
-
-		}
-
-
-	}
 }
